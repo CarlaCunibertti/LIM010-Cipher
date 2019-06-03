@@ -24,7 +24,8 @@ Sales Management soluciona estas necesidades haciendo posible la comunicación e
 Siendo temas posibles las tarifas confidenciales, descuentos confidenciales para colaboradores que tengan mayores ventas, cambios en la negociación de una venta, entre otros.
 Este aplicativo tiene seguridad para los usuarios, ya que valida la clave de acceso a los usuarios.
 Es privado, ya que cuenta con un sistema de cifrado con variaciones a elegir.
-Primer prototipo en papel y lápiz	
+## Primer prototipo en papel y lápiz	
+https://github.com/CarlaCunibertti/LIM010-Cipher/blob/master/Sales%20management%20prototipo%20en%20papel%20y%20l%C3%A1piz.jpg
  
 ## Feedback
 A partir del prototipo en papel y lápiz inicié con el feedback con las compañeras de mi squad y entrevistas a usuarios.
