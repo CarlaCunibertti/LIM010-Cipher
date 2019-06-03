@@ -4,11 +4,45 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <title>Sales Management</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <div class="vistaEstaticaUp" id="vistaEstaticaUp">
+        <h1> <strong>Sales Management</strong></h1>
+        </div>
+    </header>
+    <main>
+        <div class="vistaPrimera" id="vistaPrimera">
+        <br><p>Ingresa la contraseña secreta</p></br>
+        </br><input type="password" name="contraseña" id="traerContraseña" required><br>
+        <input type="button" value="Empezar">
+        </div>
+        
+        //falta contraseña errada //vista opcional//
+  
+        <div class="vistaSegunda" id="vistaSegunda">
+        <p>Escribe la palabra que quieres cifrar</p>
+        <input type="button" value="Cifrar">
+        <input type="text" name="palabraCryp" id="palabra">   
+        <input type="button" value="Descifrar">
+        <p>Escoge el número de desplazamientos</p>
+        <select name="numbers" id="numbersAlls">
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option3">3</option>
+        </select>
+        <p>Disfruta tu contenido</p>
+        <input type="text" name="contenidoCyfr" id="resultado">
+        <br><input type="button" value="Empezar de nuevo"></br>
+        </div>
+    </main>
+    <footer>
+        <div class="vistaEstaticaDown " id="vistaEstaticaDown">
+            <p>Created by Carla Cunibertti</p>
+            <P>Compartir aplicación</P> 
+        </div>
+</footer>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
