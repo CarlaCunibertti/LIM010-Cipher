@@ -1,1 +1,13 @@
 /* Acá van tus reglas de estilo */
+header{
+    background-color: dodgerblue;
+    text-align: center;
+}
+main{
+    background-color: rgb(35, 170, 35);
+    text-align: center;
+}
+footer{
+    background-color:dodgerblue;
+    text-align: center;
+}
