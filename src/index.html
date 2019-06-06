@@ -2,45 +2,50 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
     <title>Sales Management</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-        <div class="vistaEstaticaUp" id="vistaEstaticaUp">
-        <h1> <strong>Sales Management</strong></h1>
+        <div  id="vistaEstaticaUp">
+        <h1> <i class="em em-sleuth_or_spy"></i><strong>Sales Management</strong></h1>
         </div>
     </header>
     <main>
-        <div class="vistaPrimera" id="vistaPrimera">
-        <br><p>Ingresa la contraseña secreta</p></br>
-        </br><input type="password" name="contraseña" id="traerContraseña" required><br>
-        <input type="button" value="Empezar">
-        </div>
-        
-        //falta contraseña errada //vista opcional//
-  
-        <div class="vistaSegunda" id="vistaSegunda">
+        <div  id="vistaPrimera">
+        <h4>Codifica y decodifica tus mensajes</h4>
+      
+        <i class="em em-closed_lock_with_key"></i>
+        <br><h4>Ingresa la contraseña secreta</h4><br>
+        <br><input type="password" name="LABORATORIA" id="traerContraseña" placeholder= "Contraseña" ><br>
+        <br>
+        <button type="button" class="button" id="btnEmpezar">Empezar</button>
+        <br>
+      </div>
+        <p id="resultado1"></p>
+        <p id="resultado2"></p>
+        <p id="bienvenida"></p>
+        <div class="hide" id="vistaSegunda">
+        <br>  
         <p>Escribe la palabra que quieres cifrar</p>
-        <input type="button" value="Cifrar">
-        <input type="text" name="palabraCryp" id="palabra">   
-        <input type="button" value="Descifrar">
+        <button type="button" class="button" id="btnCifrar">Cifrar</button>
+        <input type="text" name="palabraCryp" id="palabra" >   
+        <button type="button" class="button" id="btnDescifrar">Descifrar</button>
+        
         <p>Escoge el número de desplazamientos</p>
-        <select name="numbers" id="numbersAlls">
-            <option value="option1">1</option>
-            <option value="option2">2</option>
-            <option value="option3">3</option>
-        </select>
+        <input type="number" id="numbero">
         <p>Disfruta tu contenido</p>
-        <input type="text" name="contenidoCyfr" id="resultado">
-        <br><input type="button" value="Empezar de nuevo"></br>
+        <i class="em em-male-office-worker"></i>
+        <br><input type="text" name="contenidoCyfr"   id="resultado"><br>
+        <br><button type="button" class="button" id="btnEmpezardenuevo">Empezar de nuevo</button><br>
         </div>
     </main>
     <footer>
-        <div class="vistaEstaticaDown " id="vistaEstaticaDown">
-            <p>Created by Carla Cunibertti</p>
-            <P>Compartir aplicación</P> 
+        <div id="vistaEstaticaDown">
+            <p><i class="em em-flag-pe"></i> Created by Carla Cunibertti</p>
+            <P><i class="em em-link"></i>Compartir aplicación</P> 
         </div>
 </footer>
     <script src="cipher.js"></script>
