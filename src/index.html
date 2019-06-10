@@ -14,7 +14,8 @@
         </div>
     </header>
     <main>
-        <div  id="vistaPrimera">
+      <form action="formAll">
+        <div  id="vistaPrimera" class="vistaprimera">
         <h4>Codifica y decodifica tus mensajes</h4>
       
         <i class="em em-closed_lock_with_key"></i>
@@ -26,21 +27,24 @@
       </div>
         <p id="resultado1"></p>
         <p id="resultado2"></p>
-        <p id="bienvenida"></p>
+        <p id="bienvenida" class="bienvenida"></p>
+        
         <div class="hide" id="vistaSegunda">
         <br>  
-        <p>Escribe la palabra que quieres cifrar</p>
+        <p>Escribe la palabra que quieres cifrar o descifrar</p>
         <button type="button" class="button" id="btnCifrar">Cifrar</button>
         <input type="text" name="palabraCryp" id="palabra" >   
         <button type="button" class="button" id="btnDescifrar">Descifrar</button>
+        <input type="text" name="palabraCryp" id="palabraD" >  
         
         <p>Escoge el número de desplazamientos</p>
-        <input type="number" id="numbero">
+        <input type="number" id="numero">
         <p>Disfruta tu contenido</p>
         <i class="em em-male-office-worker"></i>
         <br><input type="text" name="contenidoCyfr"   id="resultado"><br>
-        <br><button type="button" class="button" id="btnEmpezardenuevo">Empezar de nuevo</button><br>
+        <br><input type="reset" id="reset" class="resetClass" value="Empezar de nuevo">
         </div>
+      </form>
     </main>
     <footer>
         <div id="vistaEstaticaDown">
