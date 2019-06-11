@@ -6,43 +6,46 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <header>
         <div  id="vistaEstaticaUp">
-        <h1> <i class="em em-sleuth_or_spy"></i><strong>Sales  Management</strong></h1>
+        <h1> <i class="em em-sleuth_or_spy"></i><strong>Sales Management</strong></h1>
         </div>
     </header>
     <main>
-      <form action="formAll">
+      <form>
         <div  id="vistaPrimera" class="vistaprimera">
         <h4>Codifica y decodifica tus mensajes</h4>
-      
         <i class="em em-closed_lock_with_key"></i>
-        <br><h4>Ingresa la contraseña secreta</h4><br>
-        <br><input type="password" name="LABORATORIA" id="traerContraseña" placeholder= "Contraseña" ><br>
-        <br>
-        <button type="button" class="button" id="btnEmpezar">Empezar</button>
-        <br>
+        <h4>Ingresa la contraseña secreta</h4>
+        <input type="password" class="allInputs"name="LABORATORIA" id="traerContraseña" placeholder= "Contraseña" >
+        <button type="button" class="button button-empezar" id="btnEmpezar">Empezar</button>
+        <p id="resultado1" class="mensajeError"></p>
+        <p id="resultado2" class="mensajeError"></p>
+        <p id="bienvenida" ></p>
       </div>
-        <p id="resultado1"></p>
-        <p id="resultado2"></p>
-        <p id="bienvenida" class="bienvenida"></p>
-        
         <div class="hide" id="vistaSegunda">
-        <br>  
-        <p>Escribe la palabra que quieres cifrar o descifrar</p>
-        <button type="button" class="button" id="btnCifrar">Cifrar</button>
-        <input type="text" name="palabraCryp" id="palabra" >   
-        <button type="button" class="button" id="btnDescifrar">Descifrar</button>
-        <input type="text" name="palabraCryp" id="palabraD" >  
+        <div>
+            <p>Escribe la palabra que quieres cifrar o descifrar</p>
+            <button type="button" class="button" id="btnCifrar">Cifrar</button>
+            <input  type="text" class="allInputs" name="palabraCryp" id="palabra" >   
+            <button type="button" class="button" id="btnDescifrar">Descifrar</button>
+            <input  type="text" class="allInputs" name="palabraCryp" id="palabraD" >
+        </div>
+         <div>
+            <p>Escoge el número de desplazamientos</p>
+            <input type="number" class="allInputs" id="numero">
+         </div> 
+        <div>
+            <p>Disfruta tu contenido</p>
+            <i class="em em-male-office-worker"></i>
+            <input type="text" class="allInputs" name="contenidoCyfr"   id="resultado">
+        </div>
         
-        <p>Escoge el número de desplazamientos</p>
-        <input type="number" id="numero">
-        <p>Disfruta tu contenido</p>
-        <i class="em em-male-office-worker"></i>
-        <br><input type="text" name="contenidoCyfr"   id="resultado"><br>
-        <br><input type="reset" id="reset" class="resetClass" value="Empezar de nuevo">
+        <input type="reset" id="reset" class="resetClass" value="Empezar de nuevo">
         </div>
       </form>
     </main>

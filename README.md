@@ -1,10 +1,14 @@
 # Sales Management
 Es una aplicación que permite cifrar y descifrar mensajes con un numero de desplazamientos a elegir.
 
-<img src= "./src/imagenes/app.png" >
+<center><img src= "./src/imagenes/appnew.png" width="495" height="400"></center>
+
 ## Investigación UX
+
 El usuario es un vendedor de un producto o servicio y/o jefe de ventas.
+
 Los objetivos se basan en:
+
 -	Establecer comunicación para negociación de ventas y temas corporativos.
 
 -	Seguridad de las comunicaciones 
@@ -19,7 +23,8 @@ Este aplicativo tiene seguridad para los usuarios, ya que valida la clave de acc
 Es privado, ya que cuenta con un sistema de cifrado con variaciones a elegir.
 
 ## Primer prototipo en papel y lápiz
-![Prototipo en papel y lapiz](https://raw.githubusercontent.com/CarlaCunibertti/LIM010-Cipher/master/Sales%20management%20prototipo%20en%20papel%20y%20l%C3%A1piz.jpg)
+
+<center><img src= "./src/imagenes/papel.jpg" width="390" height="470"></center>
  
 ## Feedback
 A partir del prototipo en papel y lápiz inicié con el feedback con las compañeras de mi squad y entrevistas a usuarios.
@@ -28,6 +33,7 @@ En la vista primera A-opcional, sugirieron solo poner el aviso de contraseña er
 En la segunda vista, coincidieron con el aspecto de la vista era bueno ya que integraba todo en una sola vista, a excepción del texto “Ingresa la variación” ya que pensamos que no es entendible y es uno de los aspectos en el que tendría que colocar una palabra más idónea. 
 
 ## Entrevista con usuarios
+
 -	Entrevista primer usuario
 Su nombre es Carmen tiene 27 años, estudió administración, trabaja actualmente como administradora de proyectos y anteriormente como coordinadora de RR.HH, ella me indico que la aplicación era entendible y que pusiera imágenes con respecto al tema y colores, que era útil para conversaciones particulares o comunicación entre un área específica de la empresa.
 -	Entrevista segundo usuario
@@ -36,12 +42,12 @@ También consideró que sea las vistas tengan colores, resaltó que es muy útil
 
 ## Prototipo final en Balsamiq
 
-<img src= "./src/imagenes/balsamicbaja.png" >
+<center><img src= "./src/imagenes/balsamicbaja.png" width="495" height="460" ></center>
 
 Luego del feedback y entrevista con usuarios consideré cambiar algunos aspectos a partir de las sugerencias recibidas, para entregare al usuario una aplicación que resuelva sus necesidades de forma efectiva.
 Entre los cambios consideré agregar en  el footer  mi nombre como creadora de la aplicación y un enlace para compartir la aplicación , iconos,  agregarle colores, el color elegido fue el beige ya que es un color que refleja utilidad y  solidez.
 
-<img src= "./src/imagenes/balsamicalta.png" >
+<center><img src= "./src/imagenes/balsamicalta.png" width="495" height="460" ></center>
 
   
 

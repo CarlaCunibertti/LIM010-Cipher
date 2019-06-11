@@ -9,7 +9,7 @@ window.cipher = {
         if (textEncode.charCodeAt(i) >= 65 && textEncode.charCodeAt(i) <= 90) {
           let textChar = (textEncode.charCodeAt(i) - 65 + parseInt(number_offset)) % 26 + 65;
           msgCipher += String.fromCharCode(textChar);
-        //Condicion para minusculas a=97...z=122
+          //Condicion para minusculas a=97...z=122
         } else if (textEncode.charCodeAt(i) >= 97 && textEncode.charCodeAt(i) <= 122) {
           textChar = (textEncode.charCodeAt(i) - 97 + parseInt(number_offset)) % 26 + 97;
           msgCipher += String.fromCharCode(textChar);
@@ -30,7 +30,7 @@ window.cipher = {
         if (textDecode.charCodeAt(i) >= 65 && textDecode.charCodeAt(i) <= 90) {
           let textChar = (textDecode.charCodeAt(i) + 65 - parseInt(number_offset)) % 26 + 65;
           msgDecipher += String.fromCharCode(textChar);
-        //Condicion para minusculas a=97...z=122
+          //Condicion para minusculas a=97...z=122
         } else if (textDecode.charCodeAt(i) >= 97 && textDecode.charCodeAt(i) <= 122) {
           let textChar = ((textDecode.charCodeAt(i) - 97 - parseInt(number_offset) + 52) % 26) + 97;
           msgDecipher += String.fromCharCode(textChar);
