@@ -80,3 +80,7 @@ footer{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 }
+.em em-male-office-worker{
+    display: block;
+    margin: 0 auto;
+}
