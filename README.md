@@ -58,6 +58,8 @@ Entre los cambios consideré agregar en  el footer  mi nombre como creadora de l
 
 <center><img src= "./src/imagenes/ALTAFIDELIDAD.PNG" width="800" height="270" ></center>
 
+Planning
+https://onedrive.live.com/edit.aspx?cid=55705385a0687835&page=view&resid=55705385A0687835!400&parId=55705385A0687835!395&app=Word
   
 
  
