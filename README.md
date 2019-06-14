@@ -1,7 +1,7 @@
 # Sales Management
 Es una aplicación que permite cifrar y descifrar mensajes con un número de desplazamientos a elegir.
 
-<center><img src= "./src/imagenes/APPNUEVA.PNG" width="500" height="270"></center>
+<center><img src= "./src/imagenes/APPNUEVA.PNG"  width="500" height="270"></center>
 
 ## Investigación UX
 

@@ -1,5 +1,5 @@
 window.cipher = {
-  encode: (textEncode, number_offset) => {
+  encode: (number_offset,textEncode) => {
     let msgCipher = "";
     for (let i = 0; i < textEncode.length; i++) {
       let character = textEncode[i];
@@ -21,7 +21,7 @@ window.cipher = {
     }
     return msgCipher;
   },
-  decode: (textDecode, number_offset) => {
+  decode: (number_offset,textDecode ) => {
     let msgDecipher = "";
     for (let i = 0; i < textDecode.length; i++) {
       let characterD = textDecode[i];
