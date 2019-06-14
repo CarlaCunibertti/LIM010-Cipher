@@ -39,7 +39,7 @@ describe('cipher', () => {
     });
 
     it('debería retornar "áé" para "áé" con offset 33',()=>{
-      assert.equal(cipher.decode("áé"),"áé");
+      assert.equal(cipher.decode(33,"áé"),"áé");
     });
 
   });
