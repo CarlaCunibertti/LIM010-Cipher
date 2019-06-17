@@ -32,7 +32,7 @@ btnCifrado.addEventListener("click", function () {
         let textEncode = document.getElementById("palabra").value;
         let number_offset = document.getElementById("numero").value;
         msgCipher = document.getElementById("resultado");
-        msgCipher.value = window.cipher.encode(textEncode, number_offset);
+        msgCipher.value = window.cipher.encode(number_offset,textEncode );
 });
 //RESCATANDO EL VALOR DE LA PALABRA y el numero de variacion A SER desCIFRADA
 const btnDescifrado = document.getElementById("btnDescifrar");
@@ -41,5 +41,5 @@ btnDescifrado.addEventListener("click", function () {
         let textDecode = document.getElementById("palabraD").value;
         let number_offset = document.getElementById("numero").value;
         msgDecipher = document.getElementById("resultado");
-        msgDecipher.value = window.cipher.decode(textDecode, number_offset);
+        msgDecipher.value = window.cipher.decode( number_offset,textDecode);
 });
